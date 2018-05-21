@@ -62,13 +62,13 @@ def contactSource(server, query, queue, buffersize=16384, limit=-1):
     server = server.split("http://")[1]
     (server, path) = server.split("/", 1)
     host_port = server.split(":")
-    port = 80 if len(host_port) == 1 else host_port[1]    
-    
-    #print server, path, port, query
+    port = 80 if len(host_port) == 1 else host_port[1]
+
     #print 'limit', limit 
     #print 'query', query
     if (limit == -1):
         b, cardinality  = contactSourceAux(referer, server, path, port, query, queue)
+        print(b)
     else:
         #Contacts the datasource (i.e. real endpoint) incrementally, 
         #retreiving partial result sets combining the SPARQL sequence
@@ -257,21 +257,24 @@ def contactProxy(server, query, queue, buffersize=16384, limit=50):
     Every tuple in the answer is represented as Python dictionaries
     and is stored in a queue.
     '''
+    referer = server
     # Encode the query as an url string.
-    query = urllib.quote(query.encode('utf-8'))
+    # query = urllib.quote(query.encode('utf-8'))
     format = urllib.quote("application/sparql-results+json".encode('utf-8'))
     #Get host and port from "server".
-    [http, server] = server.split("http://")
+    server = server.split("http://")[1]
+    (server, path) = server.split("/", 1)
     host_port = server.split(":")
-
-    port= host_port[1].split("/")[0]
-
+    port = 80
+    # port= host_port[0].split("/")[0]
+    host = host_port[0].split("/")[0]
+    base = os.path.dirname(path)
     # Create socket, connect it to server and send the query.
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-    s.connect((host_port[0], int(port)))
+    s.connect((host,port))
 
-    s.send("GET /sparql/?query=" + query + "&format=" + format)
+    s.send("GET" + base + "/sparql/?query=" + query + "&format=" + format)
     s.shutdown(1)
 
     aux = ""
@@ -288,7 +291,6 @@ def contactProxy(server, query, queue, buffersize=16384, limit=50):
       except Exception:
         exit()
       else:
-        #print "data_contactProxy: "+str(data)
         if len(data) == 0:
             continue
         if tam == -1:

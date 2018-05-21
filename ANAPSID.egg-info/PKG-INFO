@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ANAPSID
+Version: 3.0
+Summary: ANAPSID - An adaptive query processing engine for SPARQL endpoints
+Home-page: http://www.github.com/anapsid/anapsid
+Author: Maribel Acosta, Maria-Esther Vidal, Gabriela Montoya and Simon Castillo
+Author-email: mvidal@ldc.usb.ve
+License: GNU/GPL v2
+Description: UNKNOWN
+Platform: UNKNOWN

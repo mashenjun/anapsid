@@ -1,0 +1,40 @@
+2018-05-20 21:43:38,278 - ANAPSID.Decomposer.decomposer - INFO - Decomposition Obtained
+2018-05-20 21:43:38,278 - ANAPSID.Decomposer.decomposer - INFO - SELECT ?genre1 ?genre2
+WHERE { { SERVICE <http://dbpedia.org/sparql> { 
+        ?a1 <http://dbpedia.org/ontology/associatedMusicalArtist> ?a2 . 
+        ?a1 <http://dbpedia.org/ontology/genre> ?genre2 . 
+        ?a2 <http://dbpedia.org/ontology/genre> ?genre1 }   
+ }
+
+}
+2018-05-20 21:44:19,396 - ANAPSID.Decomposer.decomposer - INFO - Decomposition Obtained
+2018-05-20 21:44:19,397 - ANAPSID.Decomposer.decomposer - INFO - SELECT DISTINCT ?o
+WHERE { { SERVICE <http://dbpedia.org/sparql> { 
+        ?d1 <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Aminoglycoside_antibiotics> . 
+        ?d1 <http://dbpedia.org/property/routesOfAdministration> ?o . 
+        ?d1 <http://dbpedia.org/property/drugbank> ?dg1 . 
+        ?d1 <http://dbpedia.org/property/smiles> ?sm1 . 
+        ?d1 <http://dbpedia.org/property/stdinchikey> ?s1 . 
+        ?d1 <http://dbpedia.org/property/pubchem> ?pu1 . 
+        ?d1 <http://dbpedia.org/property/proteinBound> ?p1 . 
+        ?d1 <http://dbpedia.org/property/kegg> ?k1 . 
+        ?d1 <http://dbpedia.org/ontology/chEBI> ?c1 . 
+        ?d1 <http://dbpedia.org/property/excretion> ?e1 . 
+        ?d1 <http://dbpedia.org/property/unii> ?u1 . 
+        ?d1 <http://dbpedia.org/property/molecularWeight> ?m1 }   
+ }  { SERVICE <http://dbpedia.org/sparql> { 
+        ?d2 <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Toxicology> . 
+        ?d2 <http://dbpedia.org/property/routesOfAdministration> ?o . 
+        ?d2 <http://dbpedia.org/property/unii> ?u2 . 
+        ?d2 <http://dbpedia.org/property/molecularWeight> ?m2 . 
+        ?d2 <http://dbpedia.org/property/kegg> ?k2 . 
+        ?d2 <http://dbpedia.org/property/smiles> ?sm2 . 
+        ?d2 <http://dbpedia.org/property/drugbank> ?dg2 . 
+        ?d2 <http://dbpedia.org/property/stdinchikey> ?s2 . 
+        ?d2 <http://dbpedia.org/ontology/chEBI> ?c2 . 
+        ?d2 <http://dbpedia.org/property/proteinBound> ?p2 . 
+        ?d2 <http://dbpedia.org/property/pubchem> ?pu2 . 
+        ?d2 <http://dbpedia.org/property/excretion> ?e2 }   
+ }
+
+}

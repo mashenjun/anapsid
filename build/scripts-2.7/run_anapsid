@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/Users/mashenjun/WorkSpace/anapsid/venv/bin/python
 '''
 Created on Jan 14, 2011
 Script to execute Anapsid.
@@ -48,18 +48,19 @@ def runQuery(query_file, endpoint_file, buffer_size, simulated, res,
     qname = qu
     time1 = time()
 
-    if oo: # if the query is in Sparql 1.1=
-        new_query = decomposer.makePlan2(query, p)
+    if oo: # if the query is in Sparql 1.1
+       new_query = decomposer.makePlan2(query, p)
     else:
-        new_query = decomposer.makePlan(query, endpoint_file, decomposition, p, contact)
+       new_query = decomposer.makePlan(query, endpoint_file, decomposition, p, contact)
+
     dt = time() - time1
 
     if (p == "d") or (k == "y"): # to show the decomposition or the plan
-        print str(new_query)
-        return
+       print str(new_query)
+       return
     elif (k == "c"): # to show the input for rdf3x
-        print str(new_query.show2())
-        return
+       print str(new_query.show2())
+       return
 
     if (new_query == None): # if the query could not be answered by the endpoints
         time2 = time() - time1
@@ -242,10 +243,10 @@ def main(argv):
     (endpoint, query, buffersize, simulated,
      decomposition, plan, oo, a, wc, k, endpointType, printResults) = get_options(argv[1:])
     try:
-        runQuery(query, endpoint, buffersize, simulated, res,
+       runQuery(query, endpoint, buffersize, simulated, res,
              decomposition, plan, oo, a, wc, k, endpointType, printResults)
     except Exception as ex:
-        print ex
+       print ex
 
 if __name__ == '__main__':
     main(sys.argv)
