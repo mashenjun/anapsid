@@ -38,3 +38,13 @@ WHERE { { SERVICE <http://dbpedia.org/sparql> {
  }
 
 }
+2018-05-22 00:07:46,243 - ANAPSID.Decomposer.decomposer - INFO - Decomposition Obtained
+2018-05-22 00:07:46,243 - ANAPSID.Decomposer.decomposer - INFO - 
+prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+SELECT *
+WHERE { { SERVICE <http://dbtune.org/bbc/peel/cliopatria/sparql> { 
+        ?sub ?pred ?obj }   
+ }
+
+}

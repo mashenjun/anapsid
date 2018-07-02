@@ -275,7 +275,7 @@ def contactProxy(server, query, queue, buffersize=16384, limit=50):
     s.connect((host,port))
 
     s.send("GET" + base + "/sparql/?query=" + query + "&format=" + format)
-    s.shutdown(1)
+    s.shutdown(socket.SHUT_WR)
 
     aux = ""
     headerStr = ''

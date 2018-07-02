@@ -72,7 +72,7 @@ def runQuery(query_file, endpoint_file, buffer_size, simulated, res,
     plan = Plan.createPlan(new_query, a, wc, buffer_size, contact, endpointType)
 
     pt = time() - time1
-    #print 'creando procesos'
+    print("creando procesos")
     p2 = Process(target=plan.execute, args=(res,))
     p2.start()
     p3 = Process(target=conclude, args=(res,p2, printResults))
