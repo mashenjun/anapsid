@@ -18,5 +18,4 @@ class Catalog(object):
         for line in open(filename,"r").readlines():
             linelist = line.split("|")
             if (len(linelist)>2):
-                self.data.update({linelist[0]:linelist[1:len(linelist)-1]}) 
-        
+                self.data.update({linelist[0]:linelist[1:len(linelist)-1]})

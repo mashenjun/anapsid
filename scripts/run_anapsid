@@ -75,17 +75,11 @@ def runQuery(query_file, endpoint_file, buffer_size, simulated, res,
     print("creando procesos")
     p2 = Process(target=plan.execute, args=(res,))
     p2.start()
-    p3 = Process(target=conclude, args=(res,p2, printResults))
+    p3 = Process(target=conclude, args=(res, printResults, t1, tn, c1, cn, time1, qname, dt, pt))
     p3.start()
     signal.signal(12, onSignal1)
 
     while True:
-        #if not p2.is_alive() and p3.is_alive():
-        #   try:
-        #     os.kill(p3.pid, 9)
-        #   except OSError as ex:
-        #     continue
-        #   break
         if p2.is_alive() and not p3.is_alive():
            try:
              os.kill(p2.pid, 9)
@@ -95,33 +89,43 @@ def runQuery(query_file, endpoint_file, buffer_size, simulated, res,
         elif not p2.is_alive() and not p3.is_alive():
            break
 
-def conclude(res, p2, printResults):
-    signal.signal(12, onSignal2)
+def conclude(res, printResults, _t1, _tn, _c1, _cn, _time1, _qname, _dt, _pt):
+    signal.signal(signal.SIGTERM, onSignal2)
     global t1
     global tn
     global c1
     global cn
+    global time1
+    global qname
+    global dt
+    global pt
+    t1 = _t1
+    tn = _tn
+    c1 = _c1
+    cn = _cn
+    dt = _dt
+    time1 = _time1
+    qname = _qname
+    pt = _pt
     ri = res.get()
-    
     if (printResults):
         if (ri == "EOF"):
             time2 = time() - time1
             t1 = time2
             tn = time2
-            print "Empty set." 
+            print("Empty set.")
             printInfo()
             return
 
         while (ri != "EOF"):
             cn = cn + 1
             if cn == 1:
-                time2=time() - time1
+                time2 = time() - time1
                 t1 = time2
                 c1 = 1
-            print ri
+            print(ri)
             ri = res.get(True)
         printInfo()
-
     else:
         if (ri == "EOF"):
             time2 = time() - time1
@@ -133,10 +137,10 @@ def conclude(res, p2, printResults):
         while (ri != "EOF"):
             cn = cn + 1
             if cn == 1:
-                time2=time() - time1
+                time2 = time() - time1
                 t1 = time2
                 c1 = 1
-            #print ri
+            # print ri
             ri = res.get(True)
         printInfo()
     

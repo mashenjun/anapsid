@@ -252,95 +252,33 @@ def contactSourceOld(server, query, queue, buffersize=16384, limit=-1):
 
 
 def contactProxy(server, query, queue, buffersize=16384, limit=50):
+    import pymongo
+    from urlparse import urlparse
     '''
     Contacts the proxy (i.e. simulator that can divede the answer in packages)
     Every tuple in the answer is represented as Python dictionaries
     and is stored in a queue.
     '''
-    referer = server
-    # Encode the query as an url string.
-    # query = urllib.quote(query.encode('utf-8'))
-    format = urllib.quote("application/sparql-results+json".encode('utf-8'))
-    #Get host and port from "server".
-    server = server.split("http://")[1]
-    (server, path) = server.split("/", 1)
-    host_port = server.split(":")
-    port = 80
-    # port= host_port[0].split("/")[0]
-    host = host_port[0].split("/")[0]
-    base = os.path.dirname(path)
-    # Create socket, connect it to server and send the query.
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    mongo_endpoint = server.rsplit('/',2)[0]
+    condition = server.rsplit('/',2)[-1]
+    db_name = server.rsplit('/',2)[1]
+    uri = urlparse(mongo_endpoint)
+    mongo_uri = 'mongodb://{2}:{3}@{0}{1}'.format(uri.netloc, uri.path, "", "")
+    client = pymongo.MongoClient(mongo_uri)
+    db = client[db_name]
 
-    s.connect((host,port))
+    query = query.lstrip("\n")
+    where = query.split("WHERE")[-1].split("mongo:{0}".format(condition))[-1].rstrip("}").strip().strip('\"')
+    target = query.split("WHERE")[0].split("SELECT")[-1].strip().lstrip("?")
 
-    s.send("GET" + base + "/sparql/?query=" + query + "&format=" + format)
-    s.shutdown(socket.SHUT_WR)
-
-    aux = ""
-    headerStr = ''
-    tam = -1
-    ac = -1
-    aux2 = ""
-    b = None
-    lb = True
-    #Receive the rest of the messages.
-    while True:
-      try:
-        data = s.recv(buffersize)
-      except Exception:
-        exit()
-      else:
-        if len(data) == 0:
-            continue
-        if tam == -1:
-            headerStr = headerStr + data
-            pos = headerStr.find('Content-Length: ')
-            if pos > -1:
-                rest = headerStr[(pos+16):]
-                pos2 = rest.find('\n')
-                if pos2 > -1:
-                    tam = int(rest[:pos2])
-        if ac == -1:
-            aux2 = aux2 + data
-            pos = (aux2).find('\n\r\n')
-            if pos > -1:
-                ac = len(aux2) - pos - 3
-        else:
-            ac = ac + len(data)
-
-        data = aux + data
-        reslist = data.split('\n')
-        if lb and (len(reslist) > 0):
-            l = reslist[0]
-            p = l.find(', \"boolean\": ')
-            if p >= 0 and len(l) > p + 13:
-                #print "contactProxy_l: "+str(l)
-		b = (l[p+13] == 't')
-                lb = False
-        for elem in reslist:
-            pos1 = string.find(elem, "    {")
-            pos2 = string.find(elem, "}}")
-            if ((pos1>-1) and (pos2>-1)):
-                str_t = elem[pos1:pos2+2]
-                dict_t = eval(str_t.rstrip())
-                res = {}
-                for key, props in dict_t.iteritems():
-                    res[key] = props['value']
-                queue.put(res)
-                aux = elem[pos2:]
-                lb = False
-            else:
-                aux = elem
-        if tam > -1 and ac >= tam:
-            break
-    if b == None:
-        queue.put("EOF")
-    #Close the connection
-    s.close()
-    
-    return b
-
+    data = db[condition].find_one()
+    idx = data["values"].index(float(where))
+    rlt = db[target].find_one()
+    res = {}
+    res[target] = rlt["values"][idx]
+    queue.put(res)
+    queue.put("EOF")
+    return
 
 
 #def contactProxy(server, query, queue, buffersize=16384, limit=50):

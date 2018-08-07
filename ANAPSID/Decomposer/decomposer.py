@@ -849,7 +849,7 @@ def decompose(qString, eFile, decomposition, contact):
     with open(eFile) as efile:
         endpointList = parseEndpoints.parse(efile)
     query = parseQuery.parse(qString)
-    groups = decomposeQuery (endpointList, query, decomposition, contact)
+    groups = decomposeQuery(endpointList, query, decomposition, contact)
     if groups == None:
         return None
     if groups == []:
