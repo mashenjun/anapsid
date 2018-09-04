@@ -1,0 +1,2855 @@
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_TC>
+        a       <http://bigdataocean.eu/bdo/TimeCoverage> ;
+        <http://industrialdataspace/information-model/beginning>
+                "2017-08-02T05:13:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://industrialdataspace/information-model/end>
+                "2017-08-27T05:12:03"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_VC>
+        a       <http://bigdataocean.eu/bdo/VerticalCoverage> ;
+        <http://bigdataocean.eu/bdo/verticalFrom>
+                "2.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://bigdataocean.eu/bdo/verticalTo>
+                "602.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_GC>
+        a       <http://data.ign.fr/def/ignf#GeographicBoundingBox> ;
+        <http://data.ign.fr/def/ignf#eastBoundLongitude>
+                "25.4214"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#northBoundLatitude>
+                "38.1936"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#southBoundLatitude>
+                "37.718"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#westBoundLongitude>
+                "25.2454"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279>
+        a       <https://www.w3.org/TR/vocab-dcat/Dataset> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "vertical profile" ;
+        <http://bigdataocean.eu/bdo/GeographicalCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_GC> ;
+        <http://bigdataocean.eu/bdo/storageTable>
+                "xmile_ais" ;
+        <http://bigdataocean.eu/bdo/timeCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_TC> ;
+        <http://bigdataocean.eu/bdo/timeResolution>
+                "daily" ;
+        <http://bigdataocean.eu/bdo/verticalCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_VC> ;
+        <http://bigdataocean.eu/bdo/verticalLevel>
+                "" ;
+        <http://purl.org/dc/terms/Standard>
+                "CF-1.6 OceanSITES-Manual-1.2 Copernicus-InSituTAC-SRD-1.3 Copernicus-InSituTAC-ParametersList-3.0.0" ;
+        <http://purl.org/dc/terms/accessRights>
+                "" ;
+        <http://purl.org/dc/terms/conformsTo>
+                "" ;
+        <http://purl.org/dc/terms/creator>
+                "drifting subsurface profiling float" ;
+        <http://purl.org/dc/terms/description>
+                "Dataset MO_201708_PR_PF_6903279" ;
+        <http://purl.org/dc/terms/format>
+                "NetCDF" ;
+        <http://purl.org/dc/terms/identifier>
+                "MO_201708_PR_PF_6903279" ;
+        <http://purl.org/dc/terms/issued>
+                "2017-09-01T05:46:37"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/language>
+                "eng" ;
+        <http://purl.org/dc/terms/modified>
+                "2017-09-01T05:46:37"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/publisher>
+                "OceanSITES" ;
+        <http://purl.org/dc/terms/title>
+                "Med Sea - NRT in situ Observations" ;
+        <http://rdf-vocabulary.ddialliance.org/discovery#variable>
+                <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_PSALQC> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_TEMP> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_POSITIONQC> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_DATAMODE> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_PRES> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_DIRECTION> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_LONGITUDE> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_PSAL> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_PRESQC> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_TIME> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_TEMPQC> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_LATITUDE> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_TIMEQC> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                "http://www.hcmr.gr" ;
+        <https://www.w3.org/TR/vocab-dcat/subject>
+                <http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/oceans> ;
+        <https://www.w3.org/TR/vocab-dcat/theme>
+                <https://www.eionet.europa.eu/gemet/en/concept/14844> .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_PSALQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_practical_salinity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_TEMP>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_POSITIONQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "POSITION_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/position_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "position_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_DATAMODE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DATA_MODE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/delayed_mode_or_real_time_data> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "delayed_mode_or_real_time_data"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_PRES>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_DIRECTION>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DIRECTION" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/profile_direction> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "profile_direction"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_LONGITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "LONGITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0554/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "longitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_PSAL>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/IADIHDIJ/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_PRESQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_pressure_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_TIME>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TIME" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0115/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "time"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_TEMPQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_temperature_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_LATITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "LATITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0600/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "latitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903279_TIMEQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TIME_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/time_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "time_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_TC>
+        a       <http://bigdataocean.eu/bdo/TimeCoverage> ;
+        <http://industrialdataspace/information-model/beginning>
+                "2017-08-03T03:07:13"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://industrialdataspace/information-model/end>
+                "2017-08-28T02:39:16"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_VC>
+        a       <http://bigdataocean.eu/bdo/VerticalCoverage> ;
+        <http://bigdataocean.eu/bdo/verticalFrom>
+                "2.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://bigdataocean.eu/bdo/verticalTo>
+                "951.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_GC>
+        a       <http://data.ign.fr/def/ignf#GeographicBoundingBox> ;
+        <http://data.ign.fr/def/ignf#eastBoundLongitude>
+                "24.3337"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#northBoundLatitude>
+                "37.1933"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#southBoundLatitude>
+                "36.815"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#westBoundLongitude>
+                "23.8787"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280>
+        a       <https://www.w3.org/TR/vocab-dcat/Dataset> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "vertical profile" ;
+        <http://bigdataocean.eu/bdo/GeographicalCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_GC> ;
+        <http://bigdataocean.eu/bdo/storageTable>
+                "xmile_ais" ;
+        <http://bigdataocean.eu/bdo/timeCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_TC> ;
+        <http://bigdataocean.eu/bdo/timeResolution>
+                "daily" ;
+        <http://bigdataocean.eu/bdo/verticalCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_VC> ;
+        <http://bigdataocean.eu/bdo/verticalLevel>
+                "" ;
+        <http://purl.org/dc/terms/Standard>
+                "CF-1.6 OceanSITES-Manual-1.2 Copernicus-InSituTAC-SRD-1.3 Copernicus-InSituTAC-ParametersList-3.0.0" ;
+        <http://purl.org/dc/terms/accessRights>
+                "" ;
+        <http://purl.org/dc/terms/conformsTo>
+                "" ;
+        <http://purl.org/dc/terms/creator>
+                "drifting subsurface profiling float" ;
+        <http://purl.org/dc/terms/description>
+                "Dataset MO_201708_PR_PF_6903280" ;
+        <http://purl.org/dc/terms/format>
+                "NetCDF" ;
+        <http://purl.org/dc/terms/identifier>
+                "MO_201708_PR_PF_6903280" ;
+        <http://purl.org/dc/terms/issued>
+                "2017-09-01T05:46:40"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/language>
+                "eng" ;
+        <http://purl.org/dc/terms/modified>
+                "2017-09-01T05:46:40"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/publisher>
+                "OceanSITES" ;
+        <http://purl.org/dc/terms/title>
+                "Med Sea - NRT in situ Observations" ;
+        <http://rdf-vocabulary.ddialliance.org/discovery#variable>
+                <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_PSALQC> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_TEMP> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_POSITIONQC> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_DATAMODE> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_PRES> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_DIRECTION> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_LONGITUDE> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_PSAL> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_PRESQC> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_TIME> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_TEMPQC> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_LATITUDE> , <http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_TIMEQC> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                "http://www.hcmr.gr" ;
+        <https://www.w3.org/TR/vocab-dcat/subject>
+                <http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/oceans> ;
+        <https://www.w3.org/TR/vocab-dcat/theme>
+                <https://www.eionet.europa.eu/gemet/en/concept/14844> .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_PSALQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_practical_salinity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_TEMP>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_POSITIONQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "POSITION_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/position_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "position_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_DATAMODE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DATA_MODE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/delayed_mode_or_real_time_data> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "delayed_mode_or_real_time_data"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_PRES>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_DIRECTION>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DIRECTION" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/profile_direction> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "profile_direction"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_LONGITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "LONGITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0554/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "longitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_PSAL>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/IADIHDIJ/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_PRESQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_pressure_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_TIME>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TIME" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0115/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "time"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_TEMPQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_temperature_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_LATITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "LATITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0600/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "latitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_PR_PF_6903280_TIMEQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TIME_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/time_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "time_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TC>
+        a       <http://bigdataocean.eu/bdo/TimeCoverage> ;
+        <http://industrialdataspace/information-model/beginning>
+                "2017-08-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://industrialdataspace/information-model/end>
+                "2017-08-31T21:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VC>
+        a       <http://bigdataocean.eu/bdo/VerticalCoverage> ;
+        <http://bigdataocean.eu/bdo/verticalFrom>
+                "-3.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://bigdataocean.eu/bdo/verticalTo>
+                "1000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GC>
+        a       <http://data.ign.fr/def/ignf#GeographicBoundingBox> ;
+        <http://data.ign.fr/def/ignf#eastBoundLongitude>
+                "25.1202"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#northBoundLatitude>
+                "35.729"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#southBoundLatitude>
+                "35.729"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#westBoundLongitude>
+                "25.1202"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277>
+        a       <https://www.w3.org/TR/vocab-dcat/Dataset> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Time-series" ;
+        <http://bigdataocean.eu/bdo/GeographicalCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GC> ;
+        <http://bigdataocean.eu/bdo/storageTable>
+                "xmile_ais" ;
+        <http://bigdataocean.eu/bdo/timeCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TC> ;
+        <http://bigdataocean.eu/bdo/timeResolution>
+                "daily" ;
+        <http://bigdataocean.eu/bdo/verticalCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VC> ;
+        <http://bigdataocean.eu/bdo/verticalLevel>
+                "" ;
+        <http://purl.org/dc/terms/Standard>
+                "CF-1.6 OceanSITES-Manual-1.2 Copernicus-InSituTAC-SRD-1.3 Copernicus-InSituTAC-ParametersList-3.0.0" ;
+        <http://purl.org/dc/terms/accessRights>
+                "" ;
+        <http://purl.org/dc/terms/conformsTo>
+                "" ;
+        <http://purl.org/dc/terms/creator>
+                "BUOY/MOORING: SURFACE, MOORED: observation" ;
+        <http://purl.org/dc/terms/description>
+                "Dataset MO_201708_TS_MO_61277" ;
+        <http://purl.org/dc/terms/format>
+                "NetCDF" ;
+        <http://purl.org/dc/terms/identifier>
+                "MO_201708_TS_MO_61277" ;
+        <http://purl.org/dc/terms/issued>
+                "2017-09-01T10:35:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/language>
+                "eng" ;
+        <http://purl.org/dc/terms/modified>
+                "2017-09-01T10:35:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/publisher>
+                "OceanSITES" ;
+        <http://purl.org/dc/terms/title>
+                "Med Sea - NRT in situ Observations" ;
+        <http://rdf-vocabulary.ddialliance.org/discovery#variable>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DRYTQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VTM02> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VMDR> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_HCDTDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_LATITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_FLU2> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VHM0> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PRES> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_ATMSDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_LONGITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VMDRDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_WSPDQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_WDIRQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GSPD> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VHM0QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DEPHQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GPSLATITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_FLU2DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_WDIR> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GPSLONGITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VTPKDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PSALDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TUR4DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_HCDTQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_HCDT> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PHPHDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PHPHQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_WSPDDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_FLU2QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VTM02DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TEMPDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VTPK> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DEPHDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DOX1DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GSPDQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DOX1> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VTPKQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_WDIRDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GPSPOSITIONQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DOX1QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PSALQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TEMPQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TUR4QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GSPDDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_ATMSQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TEMP> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PHPH> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PRESQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PRESDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_ATMS> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TUR4> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VHM0DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TIME> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_HCSP> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VMDRQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DRYTDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VTM02QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DRYT> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PSAL> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_WSPD> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_POSITIONQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DEPH> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_HCSPQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TIMEQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_HCSPDM> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                "http://www.hcmr.gr" ;
+        <https://www.w3.org/TR/vocab-dcat/subject>
+                <http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/climatologyMeteorologyAtmosphere> ;
+        <https://www.w3.org/TR/vocab-dcat/theme>
+                <https://www.eionet.europa.eu/gemet/en/concept/406> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DRYTQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DRYT_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_temperature_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_temperature_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VTM02>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTM02" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFV8N75/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VMDR>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VMDR" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0384/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_from_direction"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_HCDTDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCDT_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/direction_of_sea_water_velocity_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "direction_of_sea_water_velocity_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_LATITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "LATITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0600/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "latitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_FLU2>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "FLU2" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VHM0>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VHM0" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0385/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_significant_height"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PRES>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_ATMSDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "ATMS_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_pressure_at_sea_level_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_pressure_at_sea_level_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_LONGITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "LONGITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0554/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "longitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VMDRDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VMDR_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_from_direction_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_from_direction_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_WSPDQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WSPD_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_WDIRQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WDIR_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_from_direction_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_from_direction_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GSPD>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GSPD" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0039/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_of_gust"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VHM0QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VHM0_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_significant_height_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_significant_height_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DEPHQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DEPH_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/manually_entered_depth_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "manually_entered_depth_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GPSLATITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GPS_LATITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/automatically_measured_latitude> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "automatically_measured_latitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_FLU2DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "FLU2_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_WDIR>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WDIR" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0036/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_from_direction"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GPSLONGITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GPS_LONGITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/automatically_measured_longitude> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "automatically_measured_longitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VTPKDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTPK_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_period_at_variance_spectral_density_maximum_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_period_at_variance_spectral_density_maximum_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PSALDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_practical_salinity_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TUR4DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TUR4_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_turbidity_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_turbidity_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_HCDTQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCDT_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/direction_of_sea_water_velocity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "direction_of_sea_water_velocity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_HCDT>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCDT" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/direction_of_sea_water_velocity> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "direction_of_sea_water_velocity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PHPHDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PHPH_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_ph_reported_on_total_scale_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_ph_reported_on_total_scale_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PHPHQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PHPH_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_ph_reported_on_total_scale_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_ph_reported_on_total_scale_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_WSPDDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WSPD_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_FLU2QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "FLU2_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VTM02DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTM02_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TEMPDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_temperature_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VTPK>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTPK" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFV13N31/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_period_at_variance_spectral_density_maximum"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DEPHDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DEPH_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/manually_entered_depth_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "manually_entered_depth_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DOX1DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DOX1_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/volume_fraction_of_oxygen_in_sea_water_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "volume_fraction_of_oxygen_in_sea_water_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GSPDQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GSPD_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_of_gust_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_of_gust_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DOX1>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DOX1" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CF12N801/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "volume_fraction_of_oxygen_in_sea_water"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VTPKQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTPK_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_period_at_variance_spectral_density_maximum_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_period_at_variance_spectral_density_maximum_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_WDIRDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WDIR_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_from_direction_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_from_direction_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GPSPOSITIONQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GPS_POSITION_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/automatically_measured_position_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "automatically_measured_position_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DOX1QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DOX1_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/volume_fraction_of_oxygen_in_sea_water_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "volume_fraction_of_oxygen_in_sea_water_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PSALQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_practical_salinity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TEMPQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_temperature_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TUR4QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TUR4_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_turbidity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_turbidity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_GSPDDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GSPD_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_of_gust_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_of_gust_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_ATMSQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "ATMS_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_pressure_at_sea_level_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_pressure_at_sea_level_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TEMP>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PHPH>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PHPH" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CF14N56/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_ph_reported_on_total_scale"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PRESQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_pressure_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PRESDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_pressure_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_ATMS>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "ATMS" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_pressure_at_sea_level> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_pressure_at_sea_level"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TUR4>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TUR4" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/7B3X6L2J/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_turbidity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VHM0DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VHM0_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_significant_height_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_significant_height_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TIME>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TIME" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0115/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "time"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_HCSP>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCSP" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0334/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_speed"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VMDRQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VMDR_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_from_direction_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_from_direction_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DRYTDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DRYT_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_temperature_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_temperature_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_VTM02QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTM02_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DRYT>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DRYT" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0023/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_temperature"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_PSAL>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/IADIHDIJ/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_WSPD>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WSPD" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0038/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_POSITIONQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "POSITION_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/position_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "position_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_DEPH>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DEPH" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/manually_entered_depth> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "manually_entered_depth"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_HCSPQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCSP_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_speed_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_speed_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_TIMEQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TIME_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/time_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "time_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_61277_HCSPDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCSP_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_speed_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_speed_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TC>
+        a       <http://bigdataocean.eu/bdo/TimeCoverage> ;
+        <http://industrialdataspace/information-model/beginning>
+                "2017-08-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://industrialdataspace/information-model/end>
+                "2017-08-31T21:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VC>
+        a       <http://bigdataocean.eu/bdo/VerticalCoverage> ;
+        <http://bigdataocean.eu/bdo/verticalFrom>
+                "-3.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://bigdataocean.eu/bdo/verticalTo>
+                "1000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GC>
+        a       <http://data.ign.fr/def/ignf#GeographicBoundingBox> ;
+        <http://data.ign.fr/def/ignf#eastBoundLongitude>
+                "21.608"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#northBoundLatitude>
+                "36.829"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#southBoundLatitude>
+                "36.829"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#westBoundLongitude>
+                "21.608"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422>
+        a       <https://www.w3.org/TR/vocab-dcat/Dataset> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Time-series" ;
+        <http://bigdataocean.eu/bdo/GeographicalCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GC> ;
+        <http://bigdataocean.eu/bdo/storageTable>
+                "xmile_ais" ;
+        <http://bigdataocean.eu/bdo/timeCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TC> ;
+        <http://bigdataocean.eu/bdo/timeResolution>
+                "daily" ;
+        <http://bigdataocean.eu/bdo/verticalCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VC> ;
+        <http://bigdataocean.eu/bdo/verticalLevel>
+                "" ;
+        <http://purl.org/dc/terms/Standard>
+                "CF-1.6 OceanSITES-Manual-1.2 Copernicus-InSituTAC-SRD-1.3 Copernicus-InSituTAC-ParametersList-3.0.0" ;
+        <http://purl.org/dc/terms/accessRights>
+                "" ;
+        <http://purl.org/dc/terms/conformsTo>
+                "" ;
+        <http://purl.org/dc/terms/creator>
+                "BUOY/MOORING: SURFACE, MOORED: observation" ;
+        <http://purl.org/dc/terms/description>
+                "Dataset MO_201708_TS_MO_68422" ;
+        <http://purl.org/dc/terms/format>
+                "NetCDF" ;
+        <http://purl.org/dc/terms/identifier>
+                "MO_201708_TS_MO_68422" ;
+        <http://purl.org/dc/terms/issued>
+                "2017-09-01T10:34:30"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/language>
+                "eng" ;
+        <http://purl.org/dc/terms/modified>
+                "2017-09-01T10:34:30"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/publisher>
+                "OceanSITES" ;
+        <http://purl.org/dc/terms/title>
+                "Med Sea - NRT in situ Observations" ;
+        <http://rdf-vocabulary.ddialliance.org/discovery#variable>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DRYTQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VTM02> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VMDR> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_HCDTDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_LATITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GDIRQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VHM0> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_PRES> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_ATMSDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_LONGITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VMDRDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_WSPDQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_WDIRQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GSPD> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VHM0QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DEPHQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GPSLATITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_FLU2DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_WDIR> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GPSLONGITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VTPKDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_PSALDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TUR4DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_HCDTQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_HCDT> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GDIR> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_WSPDDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_FLU2QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VTM02DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TEMPDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VTPK> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DEPHDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DOX1DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GSPDQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DOX1> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VTPKQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_WDIRDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GPSPOSITIONQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DOX1QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_PSALQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TEMPQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GDIRDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GSPDDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_ATMSQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TEMP> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_HCSPDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_PRESQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_PRESDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_ATMS> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TUR4> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VHM0DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TIME> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_HCSP> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VMDRQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DRYTDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VTM02QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DRYT> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TUR4QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_PSAL> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_WSPD> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_POSITIONQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DEPH> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_HCSPQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_FLU2> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TIMEQC> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                "http://www.hcmr.gr" ;
+        <https://www.w3.org/TR/vocab-dcat/subject>
+                <http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/oceans> ;
+        <https://www.w3.org/TR/vocab-dcat/theme>
+                <https://www.eionet.europa.eu/gemet/en/concept/14844> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DRYTQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DRYT_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_temperature_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_temperature_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VTM02>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTM02" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFV8N75/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VMDR>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VMDR" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0384/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_from_direction"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_HCDTDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCDT_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/direction_of_sea_water_velocity_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "direction_of_sea_water_velocity_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_LATITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "LATITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0600/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "latitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GDIRQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GDIR_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/gust_from_direction_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "gust_from_direction_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VHM0>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VHM0" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0385/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_significant_height"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_PRES>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_ATMSDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "ATMS_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_pressure_at_sea_level_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_pressure_at_sea_level_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_LONGITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "LONGITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0554/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "longitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VMDRDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VMDR_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_from_direction_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_from_direction_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_WSPDQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WSPD_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_WDIRQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WDIR_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_from_direction_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_from_direction_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GSPD>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GSPD" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0039/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_of_gust"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VHM0QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VHM0_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_significant_height_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_significant_height_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DEPHQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DEPH_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/manually_entered_depth_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "manually_entered_depth_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GPSLATITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GPS_LATITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/automatically_measured_latitude> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "automatically_measured_latitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_FLU2DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "FLU2_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_WDIR>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WDIR" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0036/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_from_direction"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GPSLONGITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GPS_LONGITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/automatically_measured_longitude> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "automatically_measured_longitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VTPKDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTPK_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_period_at_variance_spectral_density_maximum_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_period_at_variance_spectral_density_maximum_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_PSALDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_practical_salinity_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TUR4DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TUR4_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_turbidity_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_turbidity_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_HCDTQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCDT_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/direction_of_sea_water_velocity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "direction_of_sea_water_velocity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_HCDT>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCDT" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/direction_of_sea_water_velocity> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "direction_of_sea_water_velocity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GDIR>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GDIR" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/gust_from_direction> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "gust_from_direction"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_WSPDDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WSPD_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_FLU2QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "FLU2_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VTM02DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTM02_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TEMPDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_temperature_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VTPK>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTPK" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFV13N31/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_period_at_variance_spectral_density_maximum"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DEPHDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DEPH_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/manually_entered_depth_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "manually_entered_depth_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DOX1DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DOX1_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/volume_fraction_of_oxygen_in_sea_water_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "volume_fraction_of_oxygen_in_sea_water_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GSPDQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GSPD_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_of_gust_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_of_gust_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DOX1>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DOX1" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CF12N801/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "volume_fraction_of_oxygen_in_sea_water"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VTPKQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTPK_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_period_at_variance_spectral_density_maximum_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_period_at_variance_spectral_density_maximum_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_WDIRDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WDIR_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_from_direction_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_from_direction_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GPSPOSITIONQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GPS_POSITION_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/automatically_measured_position_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "automatically_measured_position_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DOX1QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DOX1_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/volume_fraction_of_oxygen_in_sea_water_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "volume_fraction_of_oxygen_in_sea_water_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_PSALQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_practical_salinity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TEMPQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_temperature_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GDIRDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GDIR_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/gust_from_direction_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "gust_from_direction_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_GSPDDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GSPD_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_of_gust_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_of_gust_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_ATMSQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "ATMS_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_pressure_at_sea_level_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_pressure_at_sea_level_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TEMP>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_HCSPDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCSP_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_speed_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_speed_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_PRESQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_pressure_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_PRESDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_pressure_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_ATMS>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "ATMS" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_pressure_at_sea_level> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_pressure_at_sea_level"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TUR4>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TUR4" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/7B3X6L2J/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_turbidity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VHM0DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VHM0_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_significant_height_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_significant_height_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TIME>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TIME" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0115/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "time"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_HCSP>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCSP" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0334/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_speed"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VMDRQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VMDR_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_from_direction_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_from_direction_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DRYTDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DRYT_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_temperature_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_temperature_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_VTM02QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTM02_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DRYT>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DRYT" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0023/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_temperature"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TUR4QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TUR4_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_turbidity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_turbidity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_PSAL>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/IADIHDIJ/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_WSPD>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WSPD" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0038/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_POSITIONQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "POSITION_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/position_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "position_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_DEPH>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DEPH" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/manually_entered_depth> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "manually_entered_depth"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_HCSPQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCSP_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_speed_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_speed_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_FLU2>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "FLU2" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_68422_TIMEQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TIME_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/time_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "time_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TC>
+        a       <http://bigdataocean.eu/bdo/TimeCoverage> ;
+        <http://industrialdataspace/information-model/beginning>
+                "2017-08-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://industrialdataspace/information-model/end>
+                "2017-08-31T21:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VC>
+        a       <http://bigdataocean.eu/bdo/VerticalCoverage> ;
+        <http://bigdataocean.eu/bdo/verticalFrom>
+                "-3.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://bigdataocean.eu/bdo/verticalTo>
+                "100.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GC>
+        a       <http://data.ign.fr/def/ignf#GeographicBoundingBox> ;
+        <http://data.ign.fr/def/ignf#eastBoundLongitude>
+                "24.7201"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#northBoundLatitude>
+                "39.9674"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#southBoundLatitude>
+                "39.9674"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#westBoundLongitude>
+                "24.7201"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS>
+        a       <https://www.w3.org/TR/vocab-dcat/Dataset> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Time-series" ;
+        <http://bigdataocean.eu/bdo/GeographicalCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GC> ;
+        <http://bigdataocean.eu/bdo/storageTable>
+                "xmile_ais" ;
+        <http://bigdataocean.eu/bdo/timeCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TC> ;
+        <http://bigdataocean.eu/bdo/timeResolution>
+                "daily" ;
+        <http://bigdataocean.eu/bdo/verticalCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VC> ;
+        <http://bigdataocean.eu/bdo/verticalLevel>
+                "" ;
+        <http://purl.org/dc/terms/Standard>
+                "CF-1.6 OceanSITES-Manual-1.2 Copernicus-InSituTAC-SRD-1.3 Copernicus-InSituTAC-ParametersList-3.0.0" ;
+        <http://purl.org/dc/terms/accessRights>
+                "" ;
+        <http://purl.org/dc/terms/conformsTo>
+                "" ;
+        <http://purl.org/dc/terms/creator>
+                "BUOY/MOORING: SURFACE, MOORED: observation" ;
+        <http://purl.org/dc/terms/description>
+                "Dataset MO_201708_TS_MO_ATHOS" ;
+        <http://purl.org/dc/terms/format>
+                "NetCDF" ;
+        <http://purl.org/dc/terms/identifier>
+                "MO_201708_TS_MO_ATHOS" ;
+        <http://purl.org/dc/terms/issued>
+                "2017-09-01T10:34:02"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/language>
+                "eng" ;
+        <http://purl.org/dc/terms/modified>
+                "2017-09-01T10:34:02"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/publisher>
+                "OceanSITES" ;
+        <http://purl.org/dc/terms/title>
+                "Med Sea - NRT in situ Observations" ;
+        <http://rdf-vocabulary.ddialliance.org/discovery#variable>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DRYTQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VTM02> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VMDR> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_HCDTDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_LATITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_FLU2> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VHM0> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_PRES> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_ATMSDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_LONGITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VMDRDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_WSPDQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_WDIRQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GSPD> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VHM0QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DEPHQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GPSLATITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_FLU2DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_WDIR> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GPSLONGITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VTPKDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_PSALDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TUR4DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_HCDTQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_HCDT> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_WSPDDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_FLU2QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VTM02DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TEMPDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VTPK> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DEPHDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DOX1DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GSPDQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DOX1> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VTPKQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_WDIRDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GPSPOSITIONQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DOX1QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_PSALQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TEMPQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TUR4QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GSPDDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_ATMSQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TEMP> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_HCSPDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_PRESQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_PRESDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_ATMS> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TUR4> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VHM0DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TIME> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_HCSP> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VMDRQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DRYTDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VTM02QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DRYT> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_PSAL> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_WSPD> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_POSITIONQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DEPH> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_HCSPQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TIMEQC> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                "http://www.hcmr.gr" ;
+        <https://www.w3.org/TR/vocab-dcat/subject>
+                <http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/oceans> ;
+        <https://www.w3.org/TR/vocab-dcat/theme>
+                <https://www.eionet.europa.eu/gemet/en/concept/14844> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DRYTQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DRYT_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_temperature_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_temperature_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VTM02>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTM02" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFV8N75/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VMDR>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VMDR" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0384/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_from_direction"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_HCDTDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCDT_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/direction_of_sea_water_velocity_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "direction_of_sea_water_velocity_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_LATITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "LATITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0600/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "latitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_FLU2>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "FLU2" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VHM0>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VHM0" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0385/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_significant_height"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_PRES>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_ATMSDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "ATMS_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_pressure_at_sea_level_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_pressure_at_sea_level_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_LONGITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "LONGITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0554/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "longitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VMDRDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VMDR_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_from_direction_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_from_direction_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_WSPDQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WSPD_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_WDIRQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WDIR_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_from_direction_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_from_direction_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GSPD>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GSPD" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0039/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_of_gust"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VHM0QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VHM0_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_significant_height_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_significant_height_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DEPHQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DEPH_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/manually_entered_depth_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "manually_entered_depth_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GPSLATITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GPS_LATITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/automatically_measured_latitude> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "automatically_measured_latitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_FLU2DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "FLU2_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_WDIR>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WDIR" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0036/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_from_direction"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GPSLONGITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GPS_LONGITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/automatically_measured_longitude> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "automatically_measured_longitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VTPKDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTPK_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_period_at_variance_spectral_density_maximum_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_period_at_variance_spectral_density_maximum_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_PSALDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_practical_salinity_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TUR4DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TUR4_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_turbidity_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_turbidity_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_HCDTQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCDT_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/direction_of_sea_water_velocity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "direction_of_sea_water_velocity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_HCDT>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCDT" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/direction_of_sea_water_velocity> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "direction_of_sea_water_velocity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_WSPDDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WSPD_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_FLU2QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "FLU2_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "mass_concentration_of_chlorophyll_a_fluorescence_in_sea_water_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VTM02DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTM02_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TEMPDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_temperature_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VTPK>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTPK" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFV13N31/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_period_at_variance_spectral_density_maximum"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DEPHDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DEPH_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/manually_entered_depth_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "manually_entered_depth_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DOX1DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DOX1_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/volume_fraction_of_oxygen_in_sea_water_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "volume_fraction_of_oxygen_in_sea_water_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GSPDQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GSPD_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_of_gust_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_of_gust_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DOX1>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DOX1" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CF12N801/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "volume_fraction_of_oxygen_in_sea_water"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VTPKQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTPK_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_period_at_variance_spectral_density_maximum_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_period_at_variance_spectral_density_maximum_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_WDIRDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WDIR_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_from_direction_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_from_direction_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GPSPOSITIONQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GPS_POSITION_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/automatically_measured_position_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "automatically_measured_position_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DOX1QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DOX1_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/volume_fraction_of_oxygen_in_sea_water_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "volume_fraction_of_oxygen_in_sea_water_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_PSALQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_practical_salinity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TEMPQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_temperature_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TUR4QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TUR4_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_turbidity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_turbidity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_GSPDDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GSPD_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_of_gust_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_of_gust_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_ATMSQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "ATMS_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_pressure_at_sea_level_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_pressure_at_sea_level_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TEMP>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_HCSPDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCSP_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_speed_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_speed_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_PRESQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_pressure_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_PRESDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PRES_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_pressure_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_pressure_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_ATMS>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "ATMS" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_pressure_at_sea_level> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_pressure_at_sea_level"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TUR4>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TUR4" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/7B3X6L2J/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_turbidity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VHM0DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VHM0_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_significant_height_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_significant_height_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TIME>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TIME" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0115/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "time"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_HCSP>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCSP" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0334/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_speed"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VMDRQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VMDR_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_from_direction_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_from_direction_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DRYTDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DRYT_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_temperature_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_temperature_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_VTM02QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTM02_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DRYT>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DRYT" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0023/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_temperature"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_PSAL>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/IADIHDIJ/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_WSPD>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WSPD" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0038/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_POSITIONQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "POSITION_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/position_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "position_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_DEPH>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DEPH" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/manually_entered_depth> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "manually_entered_depth"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_HCSPQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCSP_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_speed_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_speed_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_ATHOS_TIMEQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TIME_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/time_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "time_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_TC>
+        a       <http://bigdataocean.eu/bdo/TimeCoverage> ;
+        <http://industrialdataspace/information-model/beginning>
+                "2017-08-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://industrialdataspace/information-model/end>
+                "2017-08-31T21:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VC>
+        a       <http://bigdataocean.eu/bdo/VerticalCoverage> ;
+        <http://bigdataocean.eu/bdo/verticalFrom>
+                "-3.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://bigdataocean.eu/bdo/verticalTo>
+                "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GC>
+        a       <http://data.ign.fr/def/ignf#GeographicBoundingBox> ;
+        <http://data.ign.fr/def/ignf#eastBoundLongitude>
+                "23.5615"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#northBoundLatitude>
+                "37.5968"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#southBoundLatitude>
+                "37.5968"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://data.ign.fr/def/ignf#westBoundLongitude>
+                "23.5615"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON>
+        a       <https://www.w3.org/TR/vocab-dcat/Dataset> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Time-series" ;
+        <http://bigdataocean.eu/bdo/GeographicalCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GC> ;
+        <http://bigdataocean.eu/bdo/storageTable>
+                "xmile_ais" ;
+        <http://bigdataocean.eu/bdo/timeCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_TC> ;
+        <http://bigdataocean.eu/bdo/timeResolution>
+                "daily" ;
+        <http://bigdataocean.eu/bdo/verticalCoverage>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VC> ;
+        <http://bigdataocean.eu/bdo/verticalLevel>
+                "" ;
+        <http://purl.org/dc/terms/Standard>
+                "CF-1.6 OceanSITES-Manual-1.2 Copernicus-InSituTAC-SRD-1.3 Copernicus-InSituTAC-ParametersList-3.0.0" ;
+        <http://purl.org/dc/terms/accessRights>
+                "" ;
+        <http://purl.org/dc/terms/conformsTo>
+                "" ;
+        <http://purl.org/dc/terms/creator>
+                "BUOY/MOORING: SURFACE, MOORED: observation" ;
+        <http://purl.org/dc/terms/description>
+                "Dataset MO_201708_TS_MO_SARON" ;
+        <http://purl.org/dc/terms/format>
+                "NetCDF" ;
+        <http://purl.org/dc/terms/identifier>
+                "MO_201708_TS_MO_SARON" ;
+        <http://purl.org/dc/terms/issued>
+                "2017-09-01T10:28:57"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/language>
+                "eng" ;
+        <http://purl.org/dc/terms/modified>
+                "2017-09-01T10:28:57"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/publisher>
+                "OceanSITES" ;
+        <http://purl.org/dc/terms/title>
+                "Med Sea - NRT in situ Observations" ;
+        <http://rdf-vocabulary.ddialliance.org/discovery#variable>
+                <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_DRYTQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VMDR> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_HCDTDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_LATITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VHM0> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_HCSPDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_ATMSDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_LONGITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VMDRDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_WSPDQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_WDIRQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GSPD> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VHM0QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_DEPHQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GPSLATITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_WDIR> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GPSLONGITUDE> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_PSALDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_HCDTQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_TEMPQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VTM02DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_TEMPDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VTPK> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_DEPHDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GSPDQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VTPKDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VTPKQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_WDIRDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GPSPOSITIONQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_PSALQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_WSPDDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VTM02> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GSPDDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_ATMSQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_TEMP> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_HCDT> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_ATMS> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VHM0DM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_TIME> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_HCSP> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VMDRQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_DRYTDM> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VTM02QC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_DRYT> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_PSAL> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_WSPD> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_POSITIONQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_DEPH> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_HCSPQC> , <http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_TIMEQC> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                "http://www.hcmr.gr" ;
+        <https://www.w3.org/TR/vocab-dcat/subject>
+                <http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/oceans> ;
+        <https://www.w3.org/TR/vocab-dcat/theme>
+                <https://www.eionet.europa.eu/gemet/en/concept/14844> .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_DRYTQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DRYT_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_temperature_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_temperature_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VMDR>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VMDR" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0384/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_from_direction"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_HCDTDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCDT_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/direction_of_sea_water_velocity_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "direction_of_sea_water_velocity_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_LATITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "LATITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0600/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "latitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VHM0>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VHM0" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0385/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_significant_height"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_HCSPDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCSP_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_speed_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_speed_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_ATMSDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "ATMS_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_pressure_at_sea_level_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_pressure_at_sea_level_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_LONGITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "LONGITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0554/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "longitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VMDRDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VMDR_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_from_direction_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_from_direction_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_WSPDQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WSPD_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_WDIRQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WDIR_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_from_direction_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_from_direction_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GSPD>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GSPD" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0039/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_of_gust"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VHM0QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VHM0_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_significant_height_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_significant_height_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_DEPHQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DEPH_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/manually_entered_depth_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "manually_entered_depth_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GPSLATITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GPS_LATITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/automatically_measured_latitude> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "automatically_measured_latitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_WDIR>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WDIR" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0036/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_from_direction"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GPSLONGITUDE>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GPS_LONGITUDE" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/automatically_measured_longitude> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "automatically_measured_longitude"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_PSALDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_practical_salinity_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_HCDTQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCDT_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/direction_of_sea_water_velocity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "direction_of_sea_water_velocity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_TEMPQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_temperature_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VTM02DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTM02_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_TEMPDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_temperature_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VTPK>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTPK" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFV13N31/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_period_at_variance_spectral_density_maximum"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_DEPHDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DEPH_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/manually_entered_depth_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "manually_entered_depth_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GSPDQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GSPD_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_of_gust_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_of_gust_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VTPKDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTPK_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_period_at_variance_spectral_density_maximum_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_period_at_variance_spectral_density_maximum_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VTPKQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTPK_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_period_at_variance_spectral_density_maximum_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_period_at_variance_spectral_density_maximum_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_WDIRDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WDIR_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_from_direction_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_from_direction_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GPSPOSITIONQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GPS_POSITION_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/automatically_measured_position_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "automatically_measured_position_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_PSALQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_practical_salinity_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_WSPDDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WSPD_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VTM02>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTM02" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFV8N75/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_GSPDDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "GSPD_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/wind_speed_of_gust_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed_of_gust_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_ATMSQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "ATMS_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_pressure_at_sea_level_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_pressure_at_sea_level_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_TEMP>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TEMP" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_temperature"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_HCDT>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCDT" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/direction_of_sea_water_velocity> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "direction_of_sea_water_velocity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_ATMS>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "ATMS" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_pressure_at_sea_level> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_pressure_at_sea_level"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VHM0DM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VHM0_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_significant_height_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_significant_height_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_TIME>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TIME" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0115/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "time"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_HCSP>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCSP" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0334/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_speed"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VMDRQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VMDR_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_from_direction_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_from_direction_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_DRYTDM>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DRYT_DM" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/air_temperature_processing_method> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_temperature_processing_method"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_VTM02QC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "VTM02_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_DRYT>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DRYT" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0023/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "air_temperature"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_PSAL>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "PSAL" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/IADIHDIJ/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_practical_salinity"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_WSPD>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "WSPD" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0038/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "wind_speed"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_POSITIONQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "POSITION_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/position_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "position_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_DEPH>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "DEPH" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/manually_entered_depth> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "manually_entered_depth"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_HCSPQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "HCSP_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/sea_water_speed_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "sea_water_speed_quality_flag"@en .
+
+<http://bigdataocean.eu/bdo/MO_201708_TS_MO_SARON_TIMEQC>
+        a       <http://bigdataocean.eu/bdo/BDOVariable> ;
+        <http://purl.org/dc/terms/identifier>
+                "TIME_QC" ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://bigdataocean.eu/bdo/cf/parameter/time_quality_flag> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "time_quality_flag"@en .

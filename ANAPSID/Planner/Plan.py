@@ -250,8 +250,23 @@ def contactSourceOld(server, query, queue, buffersize=16384, limit=-1):
         queue.put("EOF")
     return b
 
+def get_db_form_meta(path, var_name):
+    import rdflib
+    from rdflib import Graph
+    from rdflib.plugins.sparql import prepareQuery
+    g = Graph()
+    g.parse(path, format='n3')
+    name = rdflib.term.Literal(var_name)
+    q = prepareQuery(
+        'SELECT ?s WHERE { ?s a <http://bigdataocean.eu/bdo/BDOVariable> . ?s <http://purl.org/dc/terms/identifier> ?name . }'
+    )
+    rlt = []
+    for row in g.query(q, initBindings={"name": name}):
+        rlt.append(row.s.rsplit("/", 1)[1])
+    return rlt
 
 def contactProxy(server, query, queue, buffersize=16384, limit=50):
+    import re
     import pymongo
     from urlparse import urlparse
     '''
@@ -259,23 +274,30 @@ def contactProxy(server, query, queue, buffersize=16384, limit=50):
     Every tuple in the answer is represented as Python dictionaries
     and is stored in a queue.
     '''
-    mongo_endpoint = server.rsplit('/',2)[0]
-    condition = server.rsplit('/',2)[-1]
-    db_name = server.rsplit('/',2)[1]
+    mongo_endpoint = server.rsplit('/',2)[1]
+
     uri = urlparse(mongo_endpoint)
-    mongo_uri = 'mongodb://{2}:{3}@{0}{1}'.format(uri.netloc, uri.path, "", "")
-    client = pymongo.MongoClient(mongo_uri)
-    db = client[db_name]
-
-    query = query.lstrip("\n")
-    where = query.split("WHERE")[-1].split("mongo:{0}".format(condition))[-1].rstrip("}").strip().strip('\"')
+    q = query.strip("\n").split('prefix ')
+    meta_path = q[2].split("<")[1].split(">")[0].rstrip("/").replace("file://","")
     target = query.split("WHERE")[0].split("SELECT")[-1].strip().lstrip("?")
+    condition = query.split("WHERE")[-1].split("db:")[-1].split()[0]
+    where = query.split("WHERE")[-1].split("db:")[-1].split()[1].replace("\"","")
+    where_float = float(where)
+    mongo_uri = 'mongodb://{2}:{3}@{0}{1}'.format(uri.netloc, uri.path, "root", "31415926")
+    client = pymongo.MongoClient(mongo_uri)
+    dbs = get_db_form_meta(meta_path, target)
+    rlt = []
+    for record in dbs:
+        db_name = record.rsplit("_",1)[0]
+        collection_name = record.rsplit("_",1)[1]
+        db = client[db_name]
+        data = db[collection_name].find_one()
+        for num in data["values"]:
+            if num > where_float:
+                rlt.append(num)
 
-    data = db[condition].find_one()
-    idx = data["values"].index(float(where))
-    rlt = db[target].find_one()
     res = {}
-    res[target] = rlt["values"][idx]
+    res[target] = rlt
     queue.put(res)
     queue.put("EOF")
     return
